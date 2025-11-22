@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="прокат.css">
+    <title>Ritmshow</title>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo nav-link" data-page="home">
+                    <img src="https://sun9-78.userapi.com/s/v1/ig1/W2MJSyiTRKRj2Ok8-IVqu23SnFzt2y32AZs28zr3OMyBi3kA1b2Mq_DuNi8Nyj_C3G6TjuIO.jpg?quality=96&as=32x21,48x32,72x47,108x71,160x105,240x158,360x237,480x316,540x356,640x422,720x474,1080x712,1280x844,1440x949,1478x974&from=bu&cs=1280x0" alt="Ritmshow" class="logo-img">
+                    <span class="logo-text">RITMSHOW</span>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link" data-page="home">Главная</a></li>
+                        <li><a href="#" class="nav-link" data-page="catalog">Каталог</a></li>
+                        <li><a href="#" class="nav-link" data-page="about">О компании</a></li>
+                        <li><a href="#" class="nav-link" data-page="contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="cart-icon" id="cartIcon">
+                    🛒 <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главная страница -->
+    <section class="page active" id="home">
+        <!-- Герой секция -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text-box">
+                        <h1>Прокат сцен и оборудования для звука/света на мероприятия</h1>
+                        <a href="#" class="btn nav-link" data-page="catalog">Смотреть каталог</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="announcements">
+            <div class="container">
+                <h1>Обслуживание мероприятий по всей России</h1>
+                <p>Ritmshow — это компания, предоставляющая полный спектр услуг по аренде оборудования для особых мероприятий.</p>
+            </div>
+        </section>
+
+        <!-- Секция категорий -->
+        <section class="categories" id="categories">
+            <div class="container">
+                <h2 class="section-title">Категории оборудования</h2>
+                <div class="categories-grid">
+                    <div class="category-card nav-link" data-page="catalog" data-category="stages" 
+                         style="background-image: url('https://sun9-81.userapi.com/s/v1/ig2/tgTEpN56Fs2UGU8oA-ZsPdq676dOOgMjkeiOxM41zi0EuaDtIYUF1qvSPNZJ811OC6PD0I-VgIze46vE0n0Acl0n.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&from=bu&u=rK7mFisEcpE_5zrhCAew4ozOY6XeqHGzYoOJTCgnlqc&cs=240x0')">
+                        <div class="category-content">
+                            <h3>Сцены</h3>
+                            <p>Мобильные сцены, конструкции, навесы и оборудование</p>
+                        </div>
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-card nav-link" data-page="catalog" data-category="sound" 
+                         style="background-image: url('https://sun9-63.userapi.com/s/v1/ig2/Btuur7mBtF7topbtq2pTvEWw5MyGGr_LDbNyzU5zfiXAHbcG3CC0QVpvsIvgC6DrpF8hiQ0eBPPfEG6ZM2G4dVQo.jpg?quality=95&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x809,1280x959,1440x1079,1920x1439&from=bu&cs=1280x0')">
+                        <div class="category-content">
+                            <h3>Звуковое оборудование</h3>
+                            <p>Акустические системы, Микшеры, Микрофоны, Backline</p>
+                        </div>
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-card nav-link" data-page="catalog" data-category="light" 
+                         style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8MduB62nLDKvllh6avA-SdtEgRLuhfB1EZniT2zEHW2ccL5hRuY601Gg3D04EORoJ4o&usqp=CAU')">
+                        <div class="category-content">
+                            <h3>Световое оборудование</h3>
+                            <p>Статистические, Динамические головы, пульты, коммутация</p>
+                        </div>
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-card nav-link" data-page="catalog" data-category="special" 
+                         style="background-image: url('https://www.gtlamp.ru/images/articles/svetodiodnye-ekrany-dlya-sceny-rukovodstvo-po-vyboru/foto-9.jpg')">
+                        <div class="category-content">
+                            <h3>Экраны</h3>
+                            <p>Видеоэкраны сборные, Доп. сопровождение</p>
+                        </div>
+                        <div class="category-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция преимуществ -->
+        <section class="advantages" id="advantages">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="advantages-grid">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">✅</div>
+                        <h3>Профессиональное оборудование</h3>
+                        <p>Все проходит регулярное обслуживание</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-icon">💰</div>
+                        <h3>Доступные цены</h3>
+                        <p>Гибкая система скидок для постоянных клиентов</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-icon">🚚</div>
+                        <h3>Удобная доставка</h3>
+                        <p>Привезем точно в тайминг</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-icon">🛠️</div>
+                        <h3>Техническое сопровождение</h3>
+                        <p>Соберем и подключим, расскажем и поможем!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Страница каталога -->
+    <section class="page" id="catalog">
+        <div class="container">
+            <h2 class="section-title">Каталог оборудования</h2>
+            
+            <div class="catalog-filters">
+                <button class="filter-btn active" data-category="all">Все товары</button>
+                <button class="filter-btn" data-category="stages">Сцены</button>
+                <button class="filter-btn" data-category="sound">Звуковое</button>
+                <button class="filter-btn" data-category="light">Световое</button>
+                <button class="filter-btn" data-category="special">Экраны</button>
+            </div>
+            
+            <div class="equipment-grid" id="catalogGrid">
+                <!-- Товары будут добавлены через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Страница О компании -->
+    <section class="page" id="about">
+        <div class="container">
+            <div class="about-hero">
+                <h1>О компании Ritmshow</h1>
+                <p>Более 10 лет помогаем профессионально оформить мероприятия в технической части</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Наша история</h2>
+                    <p>
+                        Компания Ritmshow была основана в 2010 году с целью предоставления качественного 
+                        оборудования для мероприятий любого масштаба. Начиная с небольших локальных событий до крумных медиаплощадок индустрии. 
+                        Мы создали свою команду и нам доверяют множество постоянных клиентов. Наш девис: "Сложных проектов не бывает, есть только цель предоставить качественный сервис"
+                    </p>
+                    <p>
+                        Сегодня мы обслуживаем мероприятия по всей России, от корпоративных вечеринок 
+                        до масштабных фестивалей, обеспечивая безупречное качество мультимедийности мероприятий.
+                    </p>
+                </div>
+                <div class="about-achievements">
+                    <h3>Наши достижения</h3>
+                    <ul>
+                        <li>✅ Более 10 лет на рынке</li>
+                        <li>✅ 500+ успешных мероприятий</li>
+                        <li>✅ 50+ постоянных клиентов</li>
+                        <li>✅ Современное оборудование</li>
+                        <li>✅ Профессиональная команда</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h2>Наша команда</h2>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-icon">👨‍💼</div>
+                        <h3>Максим Чебанице</h3>
+                        <p class="team-position">Основатель компании</p>
+                        <p class="team-description">15 лет опыта в нашей индустрии</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-icon">🎵</div>
+                        <h3>Вячеслав Самотоин</h3>
+                        <p class="team-position">Технический директор</p>
+                        <p class="team-description">Специалист по звуковому оборудованию</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-icon">💡</div>
+                        <h3>Иван Переходько</h3>
+                        <p class="team-position">Световой дизайнер</p>
+                        <p class="team-description">Создает уникальные световые шоу</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Страница Контакты -->
+    <section class="page" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            
+            <div class="contacts-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Телефон</h3>
+                    <p>8(926)789-94-96</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>RitmShow@mail.ru</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Адрес</h3>
+                    <p>г. Москва, ул. Свободы, д. 47</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕒</div>
+                    <h3>Часы работы</h3>
+                    <p>Пн-Пт: 9:00 - 22:00</p>
+                    <p>Сб-Вс: 10:00 - 22:00</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Отправить сообщение</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Введите ваш email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" placeholder="Введите ваш телефон">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" placeholder="Введите ваше сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>RITMSHOW</h3>
+                    <p>Мы предоставляем в аренду качественное оборудование для мероприятий уже более 10 лет.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li>📞 8(926)789-94-96</li>
+                        <li>✉️ RitmShow@mail.ru</li>
+                        <li>📍 г. Москва, ул. Свободы, д. 47</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Часы работы</h3>
+                    <ul>
+                        <li>Пн-Пт: 9:00 - 22:00</li>
+                        <li>Сб-Вс: 10:00 - 22:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Ritmshow. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="прокат.js"></script>
+</body>
+</html>
